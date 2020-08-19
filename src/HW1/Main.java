@@ -3,11 +3,11 @@ package HW1;
 public class Main {
 
     public static void main(String[] args) {
-        Book book1 = new Book(1,"HarryPotter", 15.5, "J.K.Rowling",9.3);
-        System.out.println(book1);
-
-        User user1 = new User(3,"Vanya",56.9,28,true, "380-955-73-228");
-        System.out.println(user1);
+//        Book book1 = new Book(1,"HarryPotter", 15.5, "J.K.Rowling",9.3);
+//        System.out.println(book1);
+//
+//        User user1 = new User(3,"Vanya",56.9,28,true, "380-955-73-228");
+//        System.out.println(user1);
 
         Prince prince = new Prince(1,"Kolya",34,36.5);
         Cinderella[] cinderellas = {
