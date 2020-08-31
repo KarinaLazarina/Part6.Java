@@ -22,17 +22,13 @@ public class DAO {
         System.out.println(contacts);
     }
 
-    public void update(Contact contact){
-        this.contacts.add(contact);
-    }
+    public void update(int index ,Contact contact){ this.contacts.set(index,contact); }
 
     public void delete(){
         this.contacts.clear();
     }
 
-    public void create(){
-
-    }
+    public void create(Contact contact){ this.contacts.add(contact); }
 
 
 }
